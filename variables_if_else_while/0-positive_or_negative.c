@@ -6,9 +6,8 @@
  * Auth: Amin Israfilov <12640@holbertonstudents.com>
  */
 
-/**
+/*
  * main - Prints; Positive anything is better than negative nothing 
- *
  * Return: Always 0.
  */
 int main(void)

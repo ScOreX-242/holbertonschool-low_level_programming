@@ -6,9 +6,9 @@
  * Auth: Amin Israfilov <12640@holbertonstudents.com>
  */
 
-/*
- * main - Prints; Positive anything is better than negative nothing 
- * Return: Always 0.
+/**
+ * main - Prints; Positive anything is better than negative nothing
+ * Return:Always 0.
  */
 int main(void)
 {
@@ -16,11 +16,14 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-	    printf("%d is positive\n",n);
-	if (n == 0)
-	    printf("%d is zero\n",n);
-	if (n < 0)
-	    printf("%d is negative\n",n);
+	if (n > 0) {
+	    printf("%d is positive", n);
+	}
+	if (n == 0) {
+	    printf("%d is zero", n);
+	}
+	if (n < 0) {
+	    printf("%d is negative", n);
+	}
 	return (0);
 }

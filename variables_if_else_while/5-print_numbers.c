@@ -6,20 +6,20 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase.
+ * main - Prints the numbers 0 through 9.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    int n = 0;
+	int n = 0;
 
-    while (n < 10)
-    {
-        printf("%d", n);
-        n++;
-    }
-    putchar('\n');
+	while (n < 10)
+	{
+		printf("%d", n);
+		n++;
+	}
+	putchar('\n');
 
-    return (0);
+	return (0);
 }

@@ -1,25 +1,24 @@
 /*
- * File: 5-print_numbers.c
+ * File: 6-print_numberz.c
  * Auth: Amin Israfilov <12640@holbertonstudents.com>
  */
 
 #include <stdio.h>
 
 /**
- * main - Prints the numbers 0 through 9.
+ * main - Program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	int n = 0;
+    char n;
 
-	while (n < 10)
-	{
-		printf("%d", n);
-		n++;
-	}
-	putchar('\n');
+    for (n = 48; n <= 57; n++)
+    {
+        putchar(n);
+    }
+    putchar('\n');
 
-	return (0);
+    return (0);
 }

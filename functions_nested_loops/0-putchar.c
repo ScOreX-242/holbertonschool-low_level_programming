@@ -3,7 +3,6 @@
  * Auth: Amin Israfilov <12640@holbertonstudents.com>
  */
 
-#include <stdio.h>
 #include "main.h"
 
 /**

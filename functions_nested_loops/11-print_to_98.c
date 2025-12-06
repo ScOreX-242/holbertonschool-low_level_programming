@@ -49,6 +49,16 @@ void print_to_98(int n)
 			}
 		}
 	}
-  
+	if (n > b)
+    {
+        for(; n != b; n--)
+        {
+            printf("%d", n);
+            if (n != b + 1)
+            {
+                printf(", ");
+            }
+        }
+    }
 	putchar('\n');
 }

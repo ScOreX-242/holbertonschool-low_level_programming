@@ -28,8 +28,7 @@ int main(void)
 			printf("Buzz");
 
 		else
-			printf("%d", num);
-		
+			printf("%d", num);		
 		if (num == 100)
 			continue;
 

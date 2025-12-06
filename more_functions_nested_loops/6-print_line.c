@@ -1,23 +1,29 @@
 /*
- * File: 5-more_numbers.c
- * Auth: Brennan D Baraban
+ * File: 6-print_line.c
+ * Auth: Amin Israfilov
  */
 
 #include "main.h"
 
 /**
- * more_numbers - Prints the numbers 0-14 ten times.
+ * print_line - Draws a straight line in the terminal.
+ * @n: The number of times the character '_' should be printed.
+ *
+ * Description: Prints a line consisting of the character '_',
+ * followed by a new line. If n is 0 or less, only prints '\n'.
+ * Return: void.
  */
 void print_line(int n)
 {
-	  int i;
-  
-    for(i = 0; i < n;i++)
+	int i;
+
+	if (n > 0)
+	{
+		for (i = 0; i < n; i++)
 		{
-        if (n!=0 && !(n < 0))
-            _putchar('_');
-        else
-            _putchar('\n');
+			_putchar('_');
 		}
-    _putchar('\n');
+	}
+
+	_putchar('\n');
 }

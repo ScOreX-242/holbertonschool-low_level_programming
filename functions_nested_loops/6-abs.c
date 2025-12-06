@@ -13,14 +13,18 @@
  * 0 and prints '0' if n is zero,
  * -1 and prints '-' if n is less than zero.
  */
-int _abs(int)
+int _abs(int n)
 {
-  int n;
-  
 	if (n > 0)
+	{
 		return (n);
-  if (n == 0)
+	}
+    if (n == 0)
+	{
 		return (0);
-	if (n < 0);
+	}
+	if (n < 0)
+	{
 		return (-n);
+	}
 }

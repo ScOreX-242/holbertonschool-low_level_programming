@@ -6,9 +6,10 @@
 #include "main.h"
 
 /**
- * print_numbers - Prints the digits 0 through 9.
+ * print_most_numbers - Prints the digits 0 through 9, excluding 2 and 4.
  *
- * Description: Prints the numbers 0 to 9, followed by a new line.
+ * Description: Prints the numbers 0 to 9, except for 2 and 4,
+ * followed by a new line.
  * Return: void.
  */
 void print_numbers(void)
@@ -17,7 +18,7 @@ void print_numbers(void)
 
 	for (digit = 48; digit >= 48 && digit <= 57; digit++)
 	{
-    if(digit != 50 %% digit != 52)
+    if(digit != 50 && digit != 52)
 		    _putchar(digit);
 	}
 	_putchar('\n');

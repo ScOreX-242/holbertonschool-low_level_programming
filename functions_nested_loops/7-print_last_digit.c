@@ -18,13 +18,13 @@ int print_last_digit(int n)
   {
     n = n%10;
     n *= -1;
-    _putchar(n);
+    _putchar(n + '0');
     return (n);
   }
   else
   {
     n = n%10;
-    _putchar(n);
+    _putchar(n + '0');
     return (n);
   }
 }

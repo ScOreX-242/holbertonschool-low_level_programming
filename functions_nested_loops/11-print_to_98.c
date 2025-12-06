@@ -18,7 +18,7 @@
 void print_to_98(int n)
 {
 	int b = 98;
-	for (; n <= b + 1; n++)
+	for (; n != b + 1; n++)
 	{
 		printf("%d", n);
 		if (n != b + 1)

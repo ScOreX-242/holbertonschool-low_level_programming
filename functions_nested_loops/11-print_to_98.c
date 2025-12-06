@@ -27,6 +27,17 @@ void print_to_98(int n)
 			printf(", ");
 		}
 	}
+	if (n > b)
+	{
+		for (; n != b + 1; n--)
+		{
+			printf("%d", n);
+			if (n != b + 1)
+			{
+				printf(", ");
+			}
+		}
+	}
 	if (n < 0)
 	{
 		for (; n != b + 1; n--)

@@ -39,14 +39,12 @@ void print_to_98(int n)
 	}
     if (n > b)
 	{
-		int i = n;
-		while (i >= b)
+		for (; n != b; n--)
 		{
-			printf("%d", i);
-			i--;
-			if (i > b)
+			printf("%d", n);
+			if (n != b + 1)
+			{
 				printf(", ");
+			}
 		}
 	}
-	putchar('\n');
-}

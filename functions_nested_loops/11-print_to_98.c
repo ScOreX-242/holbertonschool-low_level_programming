@@ -14,37 +14,36 @@
  * Followed by a new line.
  * Return: void.
  */
-
 void print_to_98(int n)
 {
-    int i;
+	int i;
 
-    if (n < 98)
-    {
-        i = n;
-        while (i <= 98)
-        {
-            printf("%d", i);
-            if (i != 98)
-                printf(", ");
-            i++;
-        }
-    }
-    else if (n > 98)
-    {
-        i = n;
-        while (i >= 98)
-        {
-            printf("%d", i);
-            if (i != 98)
-                printf(", ");
-            i--;
-        }
-    }
-    else
-    {
-        printf("98");
-    }
+	if (n < 98)
+	{
+		i = n;
+		while (i <= 98)
+		{
+			printf("%d", i);
+			if (i != 98)
+				printf(", ");
+			i++;
+		}
+	}
+	else if (n > 98)
+	{
+		i = n;
+		while (i >= 98)
+		{
+			printf("%d", i);
+			if (i != 98)
+				printf(", ");
+			i--;
+		}
+	}
+	else
+	{
+		printf("98");
+	}
 
-    printf("\n");
+	printf("\n");
 }

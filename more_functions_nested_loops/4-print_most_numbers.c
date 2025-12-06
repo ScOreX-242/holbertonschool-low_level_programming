@@ -16,10 +16,12 @@ void print_most_numbers(void)
 {
 	char digit;
 
-	for (digit = 48; digit >= 48 && digit <= 57; digit++)
+	for (digit = '0'; digit <= '9'; digit++)
 	{
-    if(digit != 50 && digit != 52)
-		    _putchar(digit);
+		if (digit != '2' && digit != '4')
+		{
+			_putchar(digit);
+		}
 	}
 	_putchar('\n');
 }

@@ -1,15 +1,16 @@
 /*
  * File: 2-mul.c
- * Auth: Brennan D Baraban
+ * Auth: Amin Israfilov
  */
 
-#include "holberton.h"
+#include "mul.h"
 
 /**
- * _isdigit - Checks for a digit (0-9).
- * @c: The number to be checked.
+ * mul - Multiples two integers.
+ * @a: The first integer to be multiplied.
+ * @b: The second integer to be multiplied.
  *
- * Return: 1 if the number is a digit, 0 otherwise.
+ * Return: The result of the multiplication.
  */
 int mul(int a, int b)
 {

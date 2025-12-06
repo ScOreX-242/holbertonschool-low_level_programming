@@ -29,10 +29,10 @@ void print_to_98(int n)
 	}
 	if (n > b)
 	{
-		for (; n != b + 1; n--)
+		for (; n != b - 1; n--)
 		{
 			printf("%d", n);
-			if (n != b + 1)
+			if (n != b - 1)
 			{
 				printf(", ");
 			}

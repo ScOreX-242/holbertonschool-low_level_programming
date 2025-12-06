@@ -3,7 +3,7 @@
  * Auth: Amin Israfilov
  */
 
-#include "mul.h"
+#include "main.h"
 
 /**
  * mul - Multiples two integers.

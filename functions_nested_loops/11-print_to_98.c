@@ -21,7 +21,6 @@ void print_to_98(int n)
 
     if (n < b)
     {
-        // печать вверх
         for (int i = n; i <= b; i++)
         {
             printf("%d", i);
@@ -29,8 +28,7 @@ void print_to_98(int n)
         }
     }
     else if (n > b)
-    {
-        // печать вниз
+	{
         for (int i = n; i >= b; i--)
         {
             printf("%d", i);
@@ -39,7 +37,7 @@ void print_to_98(int n)
     }
     else
     {
-        // n == b
+        n == b
         printf("%d", n);
     }
 

@@ -17,7 +17,6 @@
 
 void print_to_98(int n)
 {
-	int n = -45;
 	int b = 98;
 
 	for (; n <= b; n++)
@@ -41,5 +40,4 @@ void print_to_98(int n)
 	}
   
 	putchar('\n');
-	return (0);
 }

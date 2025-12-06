@@ -17,11 +17,11 @@
 
 void print_to_98(int n)
 {
-	int b = 98;
-	for (; n != b + 1; n++)
+	int b = 99;
+	for (; n != b; n++)
 	{
 		printf("%d", n);
-		if (n != b + 1)
+		if (n < b-1)
 		{
 			printf(", ");
 		}
@@ -38,15 +38,15 @@ void print_to_98(int n)
 		}
 	}
     if (n > b)
-    {
-        for(; n != b; n--)
-        {
-            printf("%d", n);
-            if (n != b + 1)
-            {
-                printf(", ");
-            }
-        }
-    }
+	{
+		int i = n;
+		while (i >= b)
+		{
+			printf("%d", i);
+			i--;
+			if (i > b)
+				printf(", ");
+		}
+	}
 	putchar('\n');
 }

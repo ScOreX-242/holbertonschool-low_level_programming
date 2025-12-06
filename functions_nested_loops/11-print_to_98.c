@@ -17,29 +17,34 @@
 
 void print_to_98(int n)
 {
-	int b = 98;
+    int i;
 
-    if (n < b)
+    if (n < 98)
     {
-        for (int i = n; i <= b; i++)
+        i = n;
+        while (i <= 98)
         {
             printf("%d", i);
-            if (i < b) printf(", ");
+            if (i != 98)
+                printf(", ");
+            i++;
         }
     }
-    else if (n > b)
-	{
-        for (int i = n; i >= b; i--)
+    else if (n > 98)
+    {
+        i = n;
+        while (i >= 98)
         {
             printf("%d", i);
-            if (i > b) printf(", ");
+            if (i != 98)
+                printf(", ");
+            i--;
         }
     }
     else
     {
-        n == b
-        printf("%d", n);
+        printf("98");
     }
 
-    putchar('\n');
+    printf("\n");
 }

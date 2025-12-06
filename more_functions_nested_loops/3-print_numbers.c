@@ -15,8 +15,7 @@
 void print_numbers(void)
 {
 	char digit = 48;
-  for(digit; digit>=48 && digit<=57; digit++)
+  for(digit; digit>48 && digit<=57; digit++)
     _putchar(digit);
   _putchar('\n');
-  return(0);
 }

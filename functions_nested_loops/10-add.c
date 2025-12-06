@@ -6,12 +6,16 @@
 #include "main.h"
 
 /**
- * int add() - function that adds two integers and returns the result.
+ * add - Adds two integers.
+ * @a: The first integer to be added.
+ * @b: The second integer to be added.
+ *
+ * Return: The sum of the two integers.
  */
 int add(int a, int b)
 {
-  int sum;
-  
-  sum = a+b;
-  return(sum);
+	int sum;
+
+	sum = a + b;
+	return (sum);
 }

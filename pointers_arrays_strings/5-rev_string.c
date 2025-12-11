@@ -20,6 +20,10 @@ void rev_string(char *s)
 		i++;
 	}
 	for (b = b - 1; b >= 0; b--)
-		_putchar(s[b]);
+		tmp = s[i];
+		s[i] = s[b - 1 - i];
+		s[b - 1 - i] = temp;
+		i++;
+		
 	_putchar('\n');
 }

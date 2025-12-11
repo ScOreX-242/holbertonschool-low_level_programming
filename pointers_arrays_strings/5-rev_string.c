@@ -6,8 +6,8 @@
 #include "main.h"
 
 /**
- * rev_string - Function that reverses a string.
- * @s: The string to print
+ * rev_string - Reverses a string
+ * @s: The string to modify
  */
 void rev_string(char *s)
 {
@@ -15,18 +15,16 @@ void rev_string(char *s)
 	int b = 0;
 	char tmp;
 
-	while (s[i] != '\0')
+	while (s[b] != '\0')
 	{
 		b++;
+	}
+
+	for (b = b - 1; b > i; b--)
+	{
+		tmp = s[i];
+		s[i] = s[b];
+		s[b] = tmp;
 		i++;
 	}
-	for (b = b - 1; b >= 0; b--)
-		{
-		tmp = s[i];
-		s[i] = s[b - 1 - i];
-		s[b - 1 - i] = tmp;
-		i++;
-		}
-		
-	_putchar('\n');
 }

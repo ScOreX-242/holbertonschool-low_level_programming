@@ -36,5 +36,5 @@ int _atoi(char *s)
 		s++;
 	}
 
-	return ((int)num * sign);
+	return (num * sign);
 }

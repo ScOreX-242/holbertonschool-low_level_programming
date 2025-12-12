@@ -24,13 +24,13 @@ void puts_half(char *str)
   if (norm_len % 2 = 0)
   {
     half_len = norm_len / 2 ;
-    for(i; i < half_len; i += 1)
+    for(; i < half_len; i += 1)
       _putchar(str[i]);
   }
   else
 {
     half_len = ( len + 1 ) / 2;
-    for(i; i < half_len; i += 1)
+    for(; i < half_len; i += 1)
       _putchar(str[i]);
 }
 }

@@ -9,8 +9,7 @@
  * puts_half - Function that prints half of a string
  * @str: The string to modify
  */
-void puts_half(char *str)
-{
+
 void puts_half(char *str)
 {
 	int len = 0;

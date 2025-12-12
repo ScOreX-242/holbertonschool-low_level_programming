@@ -9,8 +9,6 @@
 
 int _atoi(char *s)
 {
-	int _atoi(char *s)
-{
 	int sign = 1;
 	unsigned int num = 0;
 	int started = 0;
@@ -39,5 +37,4 @@ int _atoi(char *s)
 	}
 
 	return ((int)num * sign);
-}
 }

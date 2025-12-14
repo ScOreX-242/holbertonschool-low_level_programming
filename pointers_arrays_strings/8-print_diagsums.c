@@ -21,7 +21,6 @@ void print_diagsums(int *a, int size)
 		/* Calculate the index for the Primary Diagonal: i * size + i */
 		sum_primary += a[(i * size) + i];
 
-		/* Calculate the index for the Secondary Diagonal: i * size + (size - 1 - i) */
 		sum_secondary += a[(i * size) + (size - 1 - i)];
 	}
 

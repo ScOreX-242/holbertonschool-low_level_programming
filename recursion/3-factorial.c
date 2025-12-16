@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * factorial - returns the factorial of a given number.
- * @s: the string to measure
+ * factorial - returns the factorial of a given number
+ * @n: the number to calculate the factorial of
  *
- * Return: the length of the string
+ * Return: factorial result, or -1 if n < 0
  */
 int factorial(int n)
 {
-     if (n < 0)
-        return (-1);
-     if (n == 0)
-        return(1);
-    return(n * factorial(n-1));
+	if (n < 0)
+		return (-1);
+	if (n == 0)
+		return (1);
+	return (n * factorial(n - 1));
 }

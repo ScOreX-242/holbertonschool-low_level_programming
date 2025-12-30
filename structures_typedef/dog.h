@@ -1,11 +1,14 @@
+#ifndef DOG_H
+#define DOG_H
+
 /**
- * struct dog - a struct that stores basic information about a dog
- * @name: First member, pointer to a string for the dog's name
- * @age: Second member, float representing the dog's age
- * @owner: Third member, pointer to a string for the owner's name
+ * struct dog - A struct creating a basic profile for a dog
+ * @name: The name of the dog (string)
+ * @age: The age of the dog (float)
+ * @owner: The name of the owner (string)
  *
- * Description: This structure is used to group the identity, age,
- * and ownership details of a canine.
+ * Description: This structure stores basic identifying information
+ * about a dog, including its name, age, and owner's name.
  */
 struct dog
 {
@@ -14,13 +17,4 @@ struct dog
 	char *owner;
 };
 
-int main(void)
-{
-    struct dog my_dog;
-
-    my_dog.name = "Poppy";
-    my_dog.age = 3.5;
-    my_dog.owner = "Bob";
-    printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
-    return (0);
-}
+#endif DOG_H

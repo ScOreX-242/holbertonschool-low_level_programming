@@ -7,7 +7,15 @@ int op_mul(int a, int b);
 int op_div(int a, int b);
 int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
-
+/**
+ * struct op - Struct op
+ *
+ * @op: The operator (e.g. "+", "-", "*", "/", "%")
+ * @f: The function pointer associated with the operator
+ *
+ * Description: This structure maps a string representing a mathematical
+ * operator to its corresponding arithmetic function.
+ */
 typedef struct op
 {
 	char *op;

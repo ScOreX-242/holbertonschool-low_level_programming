@@ -1,5 +1,5 @@
-#ifndef calc_h
-#define calc_h
+#ifndef CALC_H
+#define CALC_H
 
 int op_add(int a, int b);
 int op_sub(int a, int b);
@@ -7,4 +7,4 @@ int op_mul(int a, int b);
 int op_div(int a, int b);
 int op_mod(int a, int b);
 
-#endif /* calc_h */
+#endif /* CALC_H */

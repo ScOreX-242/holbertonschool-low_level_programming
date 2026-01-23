@@ -1,9 +1,8 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef MAIN_H
+#define MAIN_H
 
 /*
- * File: holberton.h
- * Auth: Amin Israfilov
+ * File: main.h
  * Desc: Header file containing prototypes for all functions
  *       written in the 0x14-file_io directory.
  */
@@ -15,4 +14,4 @@
 
 ssize_t read_textfile(const char *filename, size_t letters);
 
-#endif /* HOLBERTON_H */
+#endif /* MAIN_H */
